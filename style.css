@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li {
+    list-style: none;
+}
+
+.navimg img {
+    height: 60px;
+    width: 200px;
+}
+
+.buttonse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.buttonse a {
+    text-decoration: none;
+    color: #007E85;
+}
+
+
+.bto a {
+    background-color: #007E85;
+    padding: 5px;
+    border-radius: 15px;
+    color: white !important;
+
+}

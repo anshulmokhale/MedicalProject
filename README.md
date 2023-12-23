@@ -2,6 +2,8 @@
 
 Welcome to the Medical Website Demo Project repository! This project showcases a comprehensive demonstration of a medical website, designed to provide an intuitive and informative platform for healthcare-related information. It focuses on implementing a user-friendly interface coupled with essential features necessary for a modern medical website.
 
+Need to mention one thing this demo webstie is builded from the figma file where it shows the knowledge of working with figma file
+
 ## Features
 - **Responsive Design:** Ensures a seamless user experience across various devices and screen sizes.
 - **Information Pages:** Includes detailed sections for medical services, staff profiles, FAQs, and contact information.
