@@ -402,7 +402,8 @@ input[type=submit]:hover {
     font-feature-settings: 'clig' off, 'liga' off;
 
     /* Special headings/Display 3 */
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
+
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
@@ -417,7 +418,8 @@ input[type=submit]:hover {
     font-feature-settings: 'clig' off, 'liga' off;
 
     /* Headings/H3 */
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
+
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -447,5 +449,95 @@ input[type=submit]:hover {
 
     .item span {
         font-size: 20px;
+    }
+}
+
+/* part4 starts here */
+.part4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+.part4left {
+    width: 50%;
+}
+
+.part4left h1 {
+    color: #007E85;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'DM Sans', sans-serif;
+
+    /* Headings/H2 */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    /* 127.778% */
+}
+
+.gren {
+    border-radius: 40px;
+    background: #007E85;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.whit {
+    border-radius: 40px;
+    background: white;
+    text-decoration: none;
+    color: #007E85;
+    padding: 8px;
+}
+
+.part4right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part4right img {
+    width: 450px;
+}
+
+@media (max-width:950px) {
+    .part4{
+        flex-direction: column-reverse;
+    }
+    .part4left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .part4left h1{
+        text-align: center;
+    }
+    .part4left p{
+        text-align: center;
+    }
+    .part4right{
+        width: 100%;
+    }
+}
+@media (max-width:580px) {
+    .part4right img{
+        width: 380px;
+    }
+}
+@media (max-width:415px) {
+    .part4{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .part4right img{
+        width: 250px;
     }
 }
