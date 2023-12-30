@@ -460,7 +460,7 @@ input[type=submit]:hover {
     padding-top: 4em;
     padding-left: 3em;
     padding-right: 3em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 .part4left {
@@ -540,4 +540,17 @@ input[type=submit]:hover {
     .part4right img{
         width: 250px;
     }
+}
+/* part5 starts here */
+.part5{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.part5 h1{
+    text-align: center;
+}
+.part5 p{
+    text-align: center;
 }
